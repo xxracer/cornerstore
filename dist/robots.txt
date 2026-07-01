@@ -1,0 +1,7 @@
+User-Agent: *
+Allow: /
+Disallow: /api/
+Disallow: /_next/
+
+Host: https://cornerstonehomehealth.net
+Sitemap: https://cornerstonehomehealth.net/sitemap.xml

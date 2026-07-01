@@ -1,0 +1,79 @@
+# Cornerstone Home Health — LLM Context
+
+## Domain
+Cornerstone Home Health is a Joint Commission accredited home health agency serving Rockport, Portland, Corpus Christi, Aransas Pass, Ingleside, Fulton, and surrounding Texas Coastal Bend communities. The website is a brand and patient-acquisition site for in-home skilled nursing, therapy, aide, and memory care services.
+
+## Brand voice
+- Warm, human, and grounded — never clinical or corporate.
+- Plain language. Avoid buzzwords: no "seamless," "leverage," "unleash," or "game-changer."
+- Active voice, short sentences, and specific examples.
+- Sentence case for headings.
+
+## Core offering
+Physician-directed home health care delivered in the patient's home. Services include:
+- Skilled nursing (RNs/LVNs): wound care, IV therapy, injections, tube feedings, medication management, vitals monitoring.
+- Physical, occupational, and speech therapy.
+- Dementia and Alzheimer's care.
+- Certified home health aides (bathing, dressing, grooming, meal prep, ADLs).
+- Medical social work (resources, counseling, insurance guidance).
+- 24/7 on-call clinical support.
+
+## Service area
+Rockport, TX (office location), Portland, TX, Corpus Christi, TX, Aransas Pass, TX, Ingleside, TX, Fulton, TX, and surrounding Coastal Bend counties.
+
+## Important facts
+- Office address: 110 HWY 35 N, Suite B, Rockport, Texas 78382
+- Phone: 361-727-2131
+- Accreditation: Joint Commission Gold Seal of Approval for Home Care
+- Local ownership; caregivers live in the communities they serve.
+- Emergency instruction: if this is a medical emergency, call 911 first.
+
+## Audience
+1. Older adults and patients recently discharged from hospital or surgery.
+2. Family caregivers (adult children, spouses, guardians) researching care options.
+3. Physicians, discharge planners, and hospitals making referrals.
+4. Case managers and social workers seeking trusted local partners.
+
+## Key differentiators
+1. Joint Commission accredited — national quality and safety standards.
+2. Locally staffed in the Coastal Bend — not a distant corporate call center.
+3. Care coordinated with physicians and families.
+4. 24/7 on-call availability.
+
+## Tone and style rules for generated content
+- Prefer "we" statements ("We serve families…" not "Cornerstone serves…" unless formal).
+- Use headings in sentence case.
+- Keep paragraphs short (2–4 sentences).
+- Use bullets for lists of services or benefits.
+- Avoid exclamation marks.
+- Use respectful, person-first language about patients and seniors.
+- Include a clear call to action: call 361-727-2131 or request a free evaluation.
+
+## SEO and keyword priorities
+Primary: home health Rockport TX, home health Corpus Christi, home health Portland Texas, home health agency Coastal Bend.
+Secondary: skilled nursing at home, physical therapy home Corpus Christi, dementia care Rockport, home health aide Texas, Joint Commission accredited home health.
+Long-tail: "home health care after surgery Rockport," "Alzheimer's care at home Corpus Christi," "home health services Aransas Pass."
+
+## Navigation structure
+- Home: /
+- About: /about
+- Patient Services: /services
+- Contact Us: /contact
+- Schedule Consultation: /schedule
+
+## Conversion goals
+1. Phone call to 361-727-2131.
+2. Submission of the free care evaluation form.
+3. Referral from physicians or case managers.
+4. Trust signal: Joint Commission accreditation badge.
+
+## Compliance notes
+- Do not provide medical advice or diagnosis in generated content.
+- Direct emergencies to 911.
+- HIPAA-aware tone; protect patient privacy in examples.
+- Services require a physician's order for skilled care.
+
+## Contact / attribution
+Website: https://cornerstonehomehealth.net/
+Marketing partner: Persona Digital Marketing
+Facebook: https://www.facebook.com/cornerstonehh2131/
