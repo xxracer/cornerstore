@@ -5,11 +5,11 @@ import Image from "next/image";
 import Link from "next/link";
 
 const navLinks = [
-  { href: "#services", label: "Services" },
-  { href: "#about", label: "About" },
-  { href: "#why-us", label: "Why us" },
-  { href: "#information-pills", label: "Information Pills" },
-  { href: "#contact", label: "Contact" },
+  { href: "/services", label: "Services" },
+  { href: "/about", label: "About" },
+  { href: "/why-us", label: "Why us" },
+  { href: "/articles", label: "Articles" },
+  { href: "/contact", label: "Contact" },
 ];
 
 export default function Header() {
@@ -33,20 +33,20 @@ export default function Header() {
       }`}
       style={{ backdropFilter: "blur(16px)" }}
     >
-      <div className="mx-auto flex h-16 w-full max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto flex h-24 w-full max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         {/* Logo */}
         <Link
           href="/"
           className="group flex items-center gap-2 rounded-lg focus:outline-none focus-visible:ring-2 focus-visible:ring-sand"
           aria-label="Cornerstone Home Health home"
         >
-          <div className="relative h-7 w-[92px] overflow-hidden rounded-md bg-white shadow-sm ring-1 ring-blue/8 transition-shadow group-hover:shadow-md">
+          <div className="relative h-[72px] w-[270px] overflow-hidden rounded-md bg-white shadow-sm ring-1 ring-blue/8 transition-shadow group-hover:shadow-md">
             <Image
               src="/images/logo.png"
               alt="Cornerstone Home Health"
               fill
-              className="object-contain p-1"
-              sizes="92px"
+              className="object-contain p-2"
+              sizes="270px"
               priority
             />
           </div>
@@ -57,12 +57,12 @@ export default function Header() {
           <ul className="flex items-center gap-1">
             {navLinks.map((link) => (
               <li key={link.href}>
-                <a
+                <Link
                   href={link.href}
                   className="rounded-lg px-4 py-2 text-sm font-medium text-ink-light transition-colors hover:bg-cream-deep hover:text-blue"
                 >
                   {link.label}
-                </a>
+                </Link>
               </li>
             ))}
           </ul>
@@ -81,9 +81,16 @@ export default function Header() {
             <span>361-727-2131</span>
           </a>
 
-          <a href="#contact" className="btn-primary hidden text-sm sm:inline-flex">
+          <Link href="/contact" className="btn-primary hidden text-sm sm:inline-flex">
             Schedule a visit
-          </a>
+          </Link>
+
+          <Link
+            href="/contact"
+            className="hidden items-center justify-center gap-2 rounded-full bg-blue px-4 py-2 text-sm font-semibold text-white shadow-sm transition-all hover:bg-blue-deep hover:shadow-md sm:inline-flex"
+          >
+            Refer a patient
+          </Link>
 
           <button
             className="ml-1 flex h-10 w-10 items-center justify-center rounded-xl bg-white shadow-sm ring-1 ring-blue/8 transition-all hover:bg-cream-deep lg:hidden"
@@ -122,13 +129,13 @@ export default function Header() {
           <ul className="flex flex-col gap-1">
             {navLinks.map((link) => (
               <li key={link.href}>
-                <a
+                <Link
                   href={link.href}
                   className="block rounded-xl px-4 py-3.5 text-lg font-medium text-ink-light transition-colors hover:bg-cream-deep hover:text-blue"
                   onClick={() => setOpen(false)}
                 >
                   {link.label}
-                </a>
+                </Link>
               </li>
             ))}
           </ul>
@@ -136,9 +143,16 @@ export default function Header() {
             <a href="tel:+13617272131" className="btn-secondary text-center">
               Call 361-727-2131
             </a>
-            <a href="#contact" className="btn-primary text-center" onClick={() => setOpen(false)}>
+            <Link href="/contact" className="btn-primary text-center" onClick={() => setOpen(false)}>
               Schedule a visit
-            </a>
+            </Link>
+            <Link
+              href="/contact"
+              className="items-center justify-center gap-2 rounded-full bg-blue px-4 py-3 text-center text-base font-semibold text-white shadow-sm transition-all hover:bg-blue-deep hover:shadow-md"
+              onClick={() => setOpen(false)}
+            >
+              Refer a patient
+            </Link>
           </div>
         </nav>
       </div>

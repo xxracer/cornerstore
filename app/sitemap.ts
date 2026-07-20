@@ -1,4 +1,5 @@
 import type { MetadataRoute } from "next";
+import { getAllSlugs } from "@/lib/articles";
 
 export const dynamic = "force-static";
 
@@ -9,9 +10,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/", priority: 1.0, changeFrequency: "weekly" as const },
     { path: "/about", priority: 0.9, changeFrequency: "monthly" as const },
     { path: "/services", priority: 0.9, changeFrequency: "monthly" as const },
+    { path: "/why-us", priority: 0.9, changeFrequency: "monthly" as const },
+    { path: "/articles", priority: 0.8, changeFrequency: "weekly" as const },
+    { path: "/careers", priority: 0.8, changeFrequency: "monthly" as const },
     { path: "/contact", priority: 0.8, changeFrequency: "monthly" as const },
     { path: "/schedule", priority: 0.8, changeFrequency: "monthly" as const },
   ];
+
+  const articleSlugs = getAllSlugs();
 
   const blogPosts = [
     { path: "/10-tips-for-family-caregivers", lastModified: "2020-04-15", priority: 0.6 },
@@ -32,6 +38,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
       changeFrequency: page.changeFrequency,
       priority: page.priority,
+    })),
+    ...articleSlugs.map((slug) => ({
+      url: `${baseUrl}/articles/${slug}`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
     })),
     ...blogPosts.map((post) => ({
       url: `${baseUrl}${post.path}`,

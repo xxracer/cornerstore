@@ -20,7 +20,7 @@ export default function ContactPage() {
         <section className="bg-cream-deep py-20 md:py-28">
           <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8">
             <p className="eyebrow mb-4">Contact us</p>
-            <h1 className="section-title text-4xl sm:text-5xl">We take our patients' health seriously.</h1>
+            <h1 className="section-title text-4xl sm:text-5xl">We take our patients&apos; health seriously.</h1>
           </div>
         </section>
 

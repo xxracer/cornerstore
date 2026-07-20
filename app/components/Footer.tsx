@@ -1,11 +1,15 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 
 const quickLinks = [
   { href: "/", label: "Home" },
   { href: "/about", label: "About" },
   { href: "/services", label: "Patient Services" },
+  { href: "/why-us", label: "Why Us" },
+  { href: "/articles", label: "Articles" },
+  { href: "/careers", label: "Careers" },
   { href: "/contact", label: "Contact Us" },
   { href: "/schedule", label: "Schedule Consultation" },
 ];
@@ -15,7 +19,7 @@ export default function Footer() {
     <footer className="bg-blue-deep text-white/80">
       <div className="mx-auto grid w-full max-w-7xl gap-12 px-4 py-16 sm:px-6 lg:grid-cols-[2fr_1fr_1fr] lg:px-8">
         <div>
-          <a href="/" className="flex items-center gap-3" aria-label="Cornerstone Home Health home">
+          <Link href="/" className="flex items-center gap-3" aria-label="Cornerstone Home Health home">
             <Image
               src="/images/logo-light.png"
               alt="Cornerstone Home Health"
@@ -23,7 +27,7 @@ export default function Footer() {
               height={48}
               className="h-10 w-auto"
             />
-          </a>
+          </Link>
           <p className="mt-4 max-w-xs text-sm leading-relaxed">
             Compassionate, skilled home health care for families across Rockport, Portland, Corpus Christi, and the Texas Coastal Bend.
           </p>
@@ -49,9 +53,9 @@ export default function Footer() {
           <ul className="space-y-2">
             {quickLinks.map((link) => (
               <li key={link.href}>
-                <a href={link.href} className="text-white/80 transition-colors hover:text-white">
+                <Link href={link.href} className="text-white/80 transition-colors hover:text-white">
                   {link.label}
-                </a>
+                </Link>
               </li>
             ))}
           </ul>
