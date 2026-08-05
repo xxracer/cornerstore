@@ -94,7 +94,7 @@ export default function Hero() {
           <div className="absolute -bottom-4 -left-4 max-w-[200px] rounded-2xl bg-white p-4 shadow-lg sm:-bottom-5 sm:-left-5 sm:p-5 lg:-bottom-6 lg:-left-6">
             <div className="mb-2 flex items-center gap-1">
               {[...Array(5)].map((_, i) => (
-                <svg key={i} className="h-4 w-4 text-sand" viewBox="0 0 24 24" fill="currentColor">
+                <svg aria-hidden="true" key={i} className="h-4 w-4 text-sand" viewBox="0 0 24 24" fill="currentColor">
                   <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
                 </svg>
               ))}

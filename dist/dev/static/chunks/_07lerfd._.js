@@ -73,16 +73,16 @@ function Header() {
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                         href: "/",
-                        className: "group flex items-center gap-2 rounded-lg focus:outline-none focus-visible:ring-2 focus-visible:ring-sand",
+                        className: "group flex items-center gap-2 rounded-lg focus:outline-none focus-visible:ring-2 focus-visible:ring-sand shrink-0",
                         "aria-label": "Cornerstone Home Health home",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "relative h-[72px] w-[270px] overflow-hidden rounded-md bg-white shadow-sm ring-1 ring-blue/8 transition-shadow group-hover:shadow-md",
+                            className: "relative h-[54px] w-[200px] sm:h-[72px] sm:w-[270px] overflow-hidden rounded-md bg-white shadow-sm ring-1 ring-blue/8 transition-shadow group-hover:shadow-md",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                 src: "/images/logo.png",
                                 alt: "Cornerstone Home Health",
                                 fill: true,
                                 className: "object-contain p-2",
-                                sizes: "270px",
+                                sizes: "(max-width: 640px) 200px, 270px",
                                 priority: true
                             }, void 0, false, {
                                 fileName: "[project]/app/components/Header.tsx",
@@ -130,7 +130,7 @@ function Header() {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "flex items-center gap-2 sm:gap-3",
+                        className: "flex items-center gap-4 sm:gap-5",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                 href: "tel:+13617272131",
@@ -138,6 +138,7 @@ function Header() {
                                 "aria-label": "Call 361-727-2131",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                                        "aria-hidden": "true",
                                         className: "h-4 w-4",
                                         viewBox: "0 0 24 24",
                                         fill: "none",
@@ -171,28 +172,20 @@ function Header() {
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                 href: "/contact",
                                 className: "btn-primary hidden text-sm sm:inline-flex",
-                                children: "Schedule a visit"
+                                children: "Contact Us"
                             }, void 0, false, {
                                 fileName: "[project]/app/components/Header.tsx",
                                 lineNumber: 84,
                                 columnNumber: 11
                             }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                href: "/contact",
-                                className: "hidden items-center justify-center gap-2 rounded-full bg-blue px-4 py-2 text-sm font-semibold text-white shadow-sm transition-all hover:bg-blue-deep hover:shadow-md sm:inline-flex",
-                                children: "Refer a patient"
-                            }, void 0, false, {
-                                fileName: "[project]/app/components/Header.tsx",
-                                lineNumber: 88,
-                                columnNumber: 11
-                            }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                className: "ml-1 flex h-10 w-10 items-center justify-center rounded-xl bg-white shadow-sm ring-1 ring-blue/8 transition-all hover:bg-cream-deep lg:hidden",
+                                className: "flex h-11 w-11 items-center justify-center rounded-xl bg-white shadow-sm ring-1 ring-blue/8 transition-all hover:bg-cream-deep lg:hidden",
                                 "aria-expanded": open,
                                 "aria-controls": "mobile-nav",
                                 "aria-label": open ? "Close menu" : "Open menu",
                                 onClick: ()=>setOpen(!open),
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                                    "aria-hidden": "true",
                                     className: "h-5 w-5 text-blue",
                                     viewBox: "0 0 24 24",
                                     fill: "none",
@@ -204,14 +197,14 @@ function Header() {
                                                 d: "M18 6L6 18"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/components/Header.tsx",
-                                                lineNumber: 105,
+                                                lineNumber: 98,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                                                 d: "M6 6l12 12"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/components/Header.tsx",
-                                                lineNumber: 106,
+                                                lineNumber: 99,
                                                 columnNumber: 19
                                             }, this)
                                         ]
@@ -221,33 +214,33 @@ function Header() {
                                                 d: "M4 6h16"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/components/Header.tsx",
-                                                lineNumber: 110,
+                                                lineNumber: 103,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                                                 d: "M4 12h16"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/components/Header.tsx",
-                                                lineNumber: 111,
+                                                lineNumber: 104,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                                                 d: "M4 18h16"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/components/Header.tsx",
-                                                lineNumber: 112,
+                                                lineNumber: 105,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true)
                                 }, void 0, false, {
                                     fileName: "[project]/app/components/Header.tsx",
-                                    lineNumber: 102,
+                                    lineNumber: 95,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/components/Header.tsx",
-                                lineNumber: 95,
+                                lineNumber: 88,
                                 columnNumber: 11
                             }, this)
                         ]
@@ -264,39 +257,39 @@ function Header() {
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 id: "mobile-nav",
-                className: `fixed inset-x-0 top-16 bottom-0 z-40 bg-cream/98 transition-opacity duration-300 lg:hidden ${open ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"}`,
+                className: `fixed inset-x-0 top-[96px] bottom-0 z-40 bg-cream/98 transition-opacity duration-300 lg:hidden ${open ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"}`,
                 style: {
                     backdropFilter: "blur(16px)"
                 },
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
-                    className: "flex h-full flex-col p-5",
+                    className: "flex h-full flex-col p-6 sm:px-8",
                     "aria-label": "Mobile navigation",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                            className: "flex flex-col gap-1",
+                            className: "flex flex-col gap-2",
                             children: navLinks.map((link)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                         href: link.href,
-                                        className: "block rounded-xl px-4 py-3.5 text-lg font-medium text-ink-light transition-colors hover:bg-cream-deep hover:text-blue",
+                                        className: "block rounded-xl px-4 py-4 text-xl font-medium text-ink-light transition-colors hover:bg-cream-deep hover:text-blue",
                                         onClick: ()=>setOpen(false),
                                         children: link.label
                                     }, void 0, false, {
                                         fileName: "[project]/app/components/Header.tsx",
-                                        lineNumber: 132,
+                                        lineNumber: 125,
                                         columnNumber: 17
                                     }, this)
                                 }, link.href, false, {
                                     fileName: "[project]/app/components/Header.tsx",
-                                    lineNumber: 131,
+                                    lineNumber: 124,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/app/components/Header.tsx",
-                            lineNumber: 129,
+                            lineNumber: 122,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "mt-auto flex flex-col gap-3",
+                            className: "mt-auto flex flex-col gap-4 pb-10",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                     href: "tel:+13617272131",
@@ -304,44 +297,34 @@ function Header() {
                                     children: "Call 361-727-2131"
                                 }, void 0, false, {
                                     fileName: "[project]/app/components/Header.tsx",
-                                    lineNumber: 143,
+                                    lineNumber: 136,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                     href: "/contact",
                                     className: "btn-primary text-center",
                                     onClick: ()=>setOpen(false),
-                                    children: "Schedule a visit"
+                                    children: "Contact Us"
                                 }, void 0, false, {
                                     fileName: "[project]/app/components/Header.tsx",
-                                    lineNumber: 146,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                    href: "/contact",
-                                    className: "items-center justify-center gap-2 rounded-full bg-blue px-4 py-3 text-center text-base font-semibold text-white shadow-sm transition-all hover:bg-blue-deep hover:shadow-md",
-                                    onClick: ()=>setOpen(false),
-                                    children: "Refer a patient"
-                                }, void 0, false, {
-                                    fileName: "[project]/app/components/Header.tsx",
-                                    lineNumber: 149,
+                                    lineNumber: 139,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/components/Header.tsx",
-                            lineNumber: 142,
+                            lineNumber: 135,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/components/Header.tsx",
-                    lineNumber: 128,
+                    lineNumber: 121,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/components/Header.tsx",
-                lineNumber: 121,
+                lineNumber: 114,
                 columnNumber: 7
             }, this)
         ]
@@ -619,6 +602,7 @@ function Hero() {
                                         children: [
                                             ...Array(5)
                                         ].map((_, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                                                "aria-hidden": "true",
                                                 className: "h-4 w-4 text-sand",
                                                 viewBox: "0 0 24 24",
                                                 fill: "currentColor",
@@ -753,20 +737,6 @@ function Services() {
             const section = gridRef.current?.parentElement?.parentElement;
             const cards = gridRef.current?.querySelectorAll(".service-card");
             const reveals = section?.querySelectorAll(".reveal");
-            cards?.forEach({
-                "Services.useEffect": (card)=>{
-                    card.addEventListener("mousemove", {
-                        "Services.useEffect": (e)=>{
-                            const mouseEvent = e;
-                            const rect = card.getBoundingClientRect();
-                            const x = mouseEvent.clientX - rect.left;
-                            const y = mouseEvent.clientY - rect.top;
-                            card.style.setProperty("--mouse-x", `${x}px`);
-                            card.style.setProperty("--mouse-y", `${y}px`);
-                        }
-                    }["Services.useEffect"]);
-                }
-            }["Services.useEffect"]);
             const observer = new IntersectionObserver({
                 "Services.useEffect": (entries)=>{
                     entries.forEach({
@@ -808,7 +778,7 @@ function Services() {
                             children: "What we do"
                         }, void 0, false, {
                             fileName: "[project]/app/components/Services.tsx",
-                            lineNumber: 105,
+                            lineNumber: 96,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -817,7 +787,7 @@ function Services() {
                             children: "Complete care, right at your doorstep."
                         }, void 0, false, {
                             fileName: "[project]/app/components/Services.tsx",
-                            lineNumber: 106,
+                            lineNumber: 97,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -825,13 +795,13 @@ function Services() {
                             children: "Every plan begins with a conversation. From skilled nursing to personal daily support, we build care around the patient and the people who love them."
                         }, void 0, false, {
                             fileName: "[project]/app/components/Services.tsx",
-                            lineNumber: 109,
+                            lineNumber: 100,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/components/Services.tsx",
-                    lineNumber: 104,
+                    lineNumber: 95,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -853,7 +823,7 @@ function Services() {
                                     }
                                 }, void 0, false, {
                                     fileName: "[project]/app/components/Services.tsx",
-                                    lineNumber: 129,
+                                    lineNumber: 120,
                                     columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -863,12 +833,12 @@ function Services() {
                                         strokeWidth: 1.75
                                     }, void 0, false, {
                                         fileName: "[project]/app/components/Services.tsx",
-                                        lineNumber: 141,
+                                        lineNumber: 132,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/components/Services.tsx",
-                                    lineNumber: 140,
+                                    lineNumber: 131,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -876,7 +846,7 @@ function Services() {
                                     children: service.title
                                 }, void 0, false, {
                                     fileName: "[project]/app/components/Services.tsx",
-                                    lineNumber: 144,
+                                    lineNumber: 135,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -884,7 +854,7 @@ function Services() {
                                     children: service.description
                                 }, void 0, false, {
                                     fileName: "[project]/app/components/Services.tsx",
-                                    lineNumber: 147,
+                                    lineNumber: 138,
                                     columnNumber: 15
                                 }, this),
                                 service.cta ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -893,7 +863,7 @@ function Services() {
                                     children: service.linkText
                                 }, void 0, false, {
                                     fileName: "[project]/app/components/Services.tsx",
-                                    lineNumber: 152,
+                                    lineNumber: 143,
                                     columnNumber: 17
                                 }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                     href: service.link,
@@ -905,35 +875,35 @@ function Services() {
                                             children: "→"
                                         }, void 0, false, {
                                             fileName: "[project]/app/components/Services.tsx",
-                                            lineNumber: 161,
+                                            lineNumber: 152,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/components/Services.tsx",
-                                    lineNumber: 156,
+                                    lineNumber: 147,
                                     columnNumber: 17
                                 }, this)
                             ]
                         }, service.title, true, {
                             fileName: "[project]/app/components/Services.tsx",
-                            lineNumber: 119,
+                            lineNumber: 110,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/app/components/Services.tsx",
-                    lineNumber: 114,
+                    lineNumber: 105,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/app/components/Services.tsx",
-            lineNumber: 103,
+            lineNumber: 94,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/app/components/Services.tsx",
-        lineNumber: 102,
+        lineNumber: 93,
         columnNumber: 5
     }, this);
 }

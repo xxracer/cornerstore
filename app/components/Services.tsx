@@ -70,16 +70,7 @@ export default function Services() {
     const cards = gridRef.current?.querySelectorAll(".service-card");
     const reveals = section?.querySelectorAll(".reveal");
 
-    cards?.forEach((card) => {
-      card.addEventListener("mousemove", (e: Event) => {
-        const mouseEvent = e as globalThis.MouseEvent;
-        const rect = card.getBoundingClientRect();
-        const x = mouseEvent.clientX - rect.left;
-        const y = mouseEvent.clientY - rect.top;
-        (card as HTMLElement).style.setProperty("--mouse-x", `${x}px`);
-        (card as HTMLElement).style.setProperty("--mouse-y", `${y}px`);
-      });
-    });
+
 
     const observer = new IntersectionObserver(
       (entries) => {

@@ -1,0 +1,328 @@
+- generic [active] [ref=f7e1]:
+  - link "Skip to content" [ref=f7e2] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=f7e3]:
+    - generic [ref=f7e4]:
+      - link "Cornerstone Home Health home" [ref=f7e5] [cursor=pointer]:
+        - /url: /
+        - img "Cornerstone Home Health" [ref=f7e7]
+      - navigation "Main navigation" [ref=f7e8]:
+        - list [ref=f7e9]:
+          - listitem [ref=f7e10]:
+            - link "Services" [ref=f7e11] [cursor=pointer]:
+              - /url: /services/
+          - listitem [ref=f7e12]:
+            - link "About" [ref=f7e13] [cursor=pointer]:
+              - /url: /about/
+          - listitem [ref=f7e14]:
+            - link "Why us" [ref=f7e15] [cursor=pointer]:
+              - /url: /why-us/
+          - listitem [ref=f7e16]:
+            - link "Articles" [ref=f7e17] [cursor=pointer]:
+              - /url: /articles/
+          - listitem [ref=f7e18]:
+            - link "Contact" [ref=f7e19] [cursor=pointer]:
+              - /url: /contact/
+      - generic [ref=f7e20]:
+        - link "Call 361-727-2131" [ref=f7e21] [cursor=pointer]:
+          - /url: tel:+13617272131
+          - generic [ref=f7e24]: 361-727-2131
+        - link "Schedule a visit" [ref=f7e25] [cursor=pointer]:
+          - /url: "#contact"
+  - main [ref=f7e26]:
+    - region [ref=f7e27]:
+      - generic [ref=f7e28]:
+        - generic [ref=f7e29]:
+          - paragraph [ref=f7e30]: Cornerstone Home Health
+          - heading "Care that feels like family, delivered at home." [level=1] [ref=f7e31]
+          - paragraph [ref=f7e32]: Skilled nursing, therapy, and personal support across Rockport, Portland, Corpus Christi, and the Texas Coastal Bend.
+          - generic [ref=f7e33]:
+            - link "Request a free evaluation" [ref=f7e34] [cursor=pointer]:
+              - /url: "#contact"
+            - link "Explore services" [ref=f7e35] [cursor=pointer]:
+              - /url: "#services"
+          - generic [ref=f7e36]:
+            - generic [ref=f7e37]:
+              - generic [ref=f7e38]: 15+
+              - text: Years serving the Coastal Bend
+            - generic [ref=f7e39]:
+              - generic [ref=f7e40]: 24/7
+              - text: On-call clinical support
+            - generic [ref=f7e41]:
+              - generic [ref=f7e42]: 6+
+              - text: Cities served in the region
+        - generic [ref=f7e43]:
+          - img "A caregiver and an older adult sharing a warm moment in a bright home" [ref=f7e45]
+          - paragraph [ref=f7e58]: Trusted by families across the Coastal Bend.
+    - region [ref=f7e59]:
+      - generic [ref=f7e60]:
+        - generic [ref=f7e61]:
+          - paragraph [ref=f7e62]: What we do
+          - heading "Complete care, right at your doorstep." [level=2] [ref=f7e63]
+          - paragraph [ref=f7e64]: Every plan begins with a conversation. From skilled nursing to personal daily support, we build care around the patient and the people who love them.
+        - generic [ref=f7e65]:
+          - article [ref=f7e66]:
+            - heading "Skilled nursing" [level=3] [ref=f7e72]
+            - paragraph [ref=f7e73]: Registered nurses and licensed vocational nurses provide wound care, IV therapy, injections, tube feedings, medication management, and close monitoring of changing conditions.
+            - link "Ask about nursing care" [ref=f7e74] [cursor=pointer]:
+              - /url: "#contact"
+              - text: Ask about nursing care
+              - generic [ref=f7e75]: →
+          - article [ref=f7e76]:
+            - heading "Physical, occupational & speech therapy" [level=3] [ref=f7e81]
+            - paragraph [ref=f7e82]: Rehabilitation at home helps patients rebuild strength, balance, mobility, and communication after surgery, illness, or injury.
+            - link "Learn about therapy" [ref=f7e83] [cursor=pointer]:
+              - /url: "#contact"
+              - text: Learn about therapy
+              - generic [ref=f7e84]: →
+          - article [ref=f7e85]:
+            - heading "Dementia & Alzheimer's care" [level=3] [ref=f7e90]
+            - paragraph [ref=f7e91]: Specialized support for memory-related conditions, focusing on safety, routine, communication, and family education through every stage.
+            - link "Explore memory care" [ref=f7e92] [cursor=pointer]:
+              - /url: "#contact"
+              - text: Explore memory care
+              - generic [ref=f7e93]: →
+          - article [ref=f7e94]:
+            - heading "Home health aides" [level=3] [ref=f7e98]
+            - paragraph [ref=f7e99]: Trained aides assist with bathing, dressing, grooming, light meal preparation, and daily activities under nurse supervision.
+            - link "Meet our aides" [ref=f7e100] [cursor=pointer]:
+              - /url: "#contact"
+              - text: Meet our aides
+              - generic [ref=f7e101]: →
+          - article [ref=f7e102]:
+            - heading "Medical social work" [level=3] [ref=f7e107]
+            - paragraph [ref=f7e108]: Our social workers connect families to community resources, entitlements, counseling, and the emotional support needed during complex care.
+            - link "Talk to a social worker" [ref=f7e109] [cursor=pointer]:
+              - /url: "#contact"
+              - text: Talk to a social worker
+              - generic [ref=f7e110]: →
+          - article [ref=f7e111]:
+            - heading "Not sure what you need?" [level=3] [ref=f7e114]
+            - paragraph [ref=f7e115]: Tell us what is happening. We will help you understand your options, coordinate with your physician, and build a plan that fits.
+            - link "Start a conversation" [ref=f7e116] [cursor=pointer]:
+              - /url: "#contact"
+    - region [ref=f7e117]:
+      - generic [ref=f7e118]:
+        - generic [ref=f7e119]:
+          - img "Nurse smiling with a patient during a home visit" [ref=f7e120]
+          - img "Caregiver reviewing care notes with a family member" [ref=f7e121]
+        - generic [ref=f7e122]:
+          - paragraph [ref=f7e123]: About us
+          - heading "There is no better place to heal than where you feel safest." [level=2] [ref=f7e124]
+          - paragraph [ref=f7e125]: "Cornerstone Home Health was built on a simple belief: patients recover better, live fuller, and stay longer at home when care is delivered with skill and genuine compassion."
+          - paragraph [ref=f7e126]: We serve Rockport, Portland, Corpus Christi, and surrounding Coastal Bend communities with physician-directed skilled nursing, rehabilitation therapies, and personal support services.
+          - list [ref=f7e127]:
+            - listitem [ref=f7e128]:
+              - generic [ref=f7e129]: ✓
+              - text: Physician orders and personalized care plans
+            - listitem [ref=f7e130]:
+              - generic [ref=f7e131]: ✓
+              - text: Licensed nurses, therapists, aides, and social workers
+            - listitem [ref=f7e132]:
+              - generic [ref=f7e133]: ✓
+              - text: 24/7 on-call clinical support
+            - listitem [ref=f7e134]:
+              - generic [ref=f7e135]: ✓
+              - text: Local ownership and community roots
+          - link "Get to know our team" [ref=f7e136] [cursor=pointer]:
+            - /url: "#contact"
+    - region [ref=f7e137]:
+      - generic [ref=f7e138]:
+        - generic [ref=f7e139]:
+          - paragraph [ref=f7e140]: Why families choose us
+          - heading "Local care. National standards. Personal attention." [level=2] [ref=f7e141]
+        - generic [ref=f7e142]:
+          - generic [ref=f7e143]:
+            - generic [ref=f7e144]: "01"
+            - heading "Joint Commission accredited" [level=3] [ref=f7e145]
+            - paragraph [ref=f7e146]: We meet rigorous national standards for quality and safety in home care, so families can trust the care their loved ones receive.
+          - generic [ref=f7e147]:
+            - generic [ref=f7e148]: "02"
+            - heading "Coastal Bend born and staffed" [level=3] [ref=f7e149]
+            - paragraph [ref=f7e150]: Our caregivers live here. They understand the local health network, the rhythm of coastal life, and the value of showing up on time.
+          - generic [ref=f7e151]:
+            - generic [ref=f7e152]: "03"
+            - heading "Care built around family" [level=3] [ref=f7e153]
+            - paragraph [ref=f7e154]: We do not just treat a chart. We listen to patients, support caregivers, and communicate clearly with physicians and loved ones.
+          - generic [ref=f7e155]:
+            - generic [ref=f7e156]: "04"
+            - heading "Available when you need us" [level=3] [ref=f7e157]
+            - paragraph [ref=f7e158]: Home health needs do not follow office hours. Our team is reachable around the clock for questions, concerns, and urgent changes.
+    - region [ref=f7e159]:
+      - generic [ref=f7e160]:
+        - generic [ref=f7e161]:
+          - generic [ref=f7e162]:
+            - paragraph [ref=f7e163]: Information Pills
+            - heading "Quick reads on the topics families ask about most." [level=2] [ref=f7e164]
+          - link "View all articles" [ref=f7e165] [cursor=pointer]:
+            - /url: /articles/
+        - generic [ref=f7e170]:
+          - article [ref=f7e171]:
+            - generic [ref=f7e172]: Private-pay services
+            - heading "Private-pay nursing visits to set up your MedPlanner" [level=3] [ref=f7e177]
+            - paragraph [ref=f7e178]: We now offer affordable private-pay visits for patients and families who need a nurse to organize, set up, and explain a weekly medication planner in the comfort of home.
+            - link "Read more" [ref=f7e179] [cursor=pointer]:
+              - /url: /articles/private-pay-mediplanner-nursing-visits/
+          - article [ref=f7e182]:
+            - generic [ref=f7e183]: Skilled nursing
+            - heading "What does skilled nursing care include at home?" [level=3] [ref=f7e189]
+            - paragraph [ref=f7e190]: Many families wonder what a home health nurse actually does. From wound care and IV therapy to medication management and vitals monitoring, skilled nursing keeps patients safe without leaving home.
+            - link "Read more" [ref=f7e191] [cursor=pointer]:
+              - /url: /articles/what-does-skilled-nursing-care-include-at-home/
+          - article [ref=f7e194]:
+            - generic [ref=f7e195]: Memory care
+            - heading "How to care for a loved one with Alzheimer's or dementia" [level=3] [ref=f7e206]
+            - paragraph [ref=f7e207]: Caring for someone with memory loss can feel overwhelming. Learn how routine, communication, and professional support can help families in Rockport, Portland, and Corpus Christi.
+            - link "Read more" [ref=f7e208] [cursor=pointer]:
+              - /url: /articles/how-to-care-for-a-loved-one-with-alzheimers-or-dementia/
+          - article [ref=f7e211]:
+            - generic [ref=f7e212]: Medication safety
+            - heading "Medication management for seniors at home" [level=3] [ref=f7e218]
+            - paragraph [ref=f7e219]: Missed doses and medication conflicts are common risks for older adults. Discover how home health teams help organize, monitor, and administer medications safely.
+            - link "Read more" [ref=f7e220] [cursor=pointer]:
+              - /url: /articles/medication-management-for-seniors-at-home/
+          - article [ref=f7e223]:
+            - generic [ref=f7e224]: Accreditation
+            - heading "What Joint Commission accreditation means for your family" [level=3] [ref=f7e230]
+            - paragraph [ref=f7e231]: Not every home health agency meets national quality and safety standards. Accreditation means your loved one's care is held to strict, regularly reviewed guidelines.
+            - link "Read more" [ref=f7e232] [cursor=pointer]:
+              - /url: /articles/what-joint-commission-accreditation-means/
+          - article [ref=f7e235]:
+            - generic [ref=f7e236]: Family caregivers
+            - heading "10 practical tips for family caregivers" [level=3] [ref=f7e244]
+            - paragraph [ref=f7e245]: Balancing work, family, and caregiving is exhausting. These tips can help caregivers protect their own health while supporting a parent, spouse, or aging relative.
+            - link "Read more" [ref=f7e246] [cursor=pointer]:
+              - /url: /articles/ten-practical-tips-for-family-caregivers/
+          - article [ref=f7e249]:
+            - generic [ref=f7e250]: Recovery
+            - heading "Recovering from surgery at home with therapy support" [level=3] [ref=f7e256]
+            - paragraph [ref=f7e257]: Physical and occupational therapy at home helps patients rebuild strength, balance, and confidence after surgery, reducing the risk of falls and readmissions.
+            - link "Read more" [ref=f7e258] [cursor=pointer]:
+              - /url: /articles/recovering-from-surgery-at-home-with-therapy-support/
+          - article [ref=f7e261]:
+            - generic [ref=f7e262]: Careers
+            - heading "Join the Cornerstone Home Health team" [level=3] [ref=f7e268]
+            - paragraph [ref=f7e269]: We are hiring a full-time LVN, PRN LVN/RN, PRN PT/PTA, and PRN Home Health Aide across the Coastal Bend. Find a role that fits your skills and schedule.
+            - link "Read more" [ref=f7e270] [cursor=pointer]:
+              - /url: /articles/join-the-cornerstone-team/
+    - region [ref=f7e273]:
+      - generic [ref=f7e274]:
+        - generic [ref=f7e275]:
+          - paragraph [ref=f7e276]: Service area
+          - heading "Home health across the Coastal Bend." [level=2] [ref=f7e277]
+          - paragraph [ref=f7e278]: We proudly serve patients and families in Aransas, Nueces, and San Patricio counties.
+          - list [ref=f7e279]:
+            - listitem [ref=f7e280]:
+              - link "Rockport, TX" [ref=f7e281] [cursor=pointer]:
+                - /url: https://www.google.com/maps/dir/Hwy+35+N,+Rockport,+TX+78382
+            - listitem [ref=f7e282]: Portland, TX
+            - listitem [ref=f7e283]: Corpus Christi, TX
+            - listitem [ref=f7e284]: Aransas Pass, TX
+            - listitem [ref=f7e285]: Ingleside, TX
+            - listitem [ref=f7e286]: Fulton, TX
+        - generic [ref=f7e287]:
+          - generic [ref=f7e288]:
+            - text: Office
+            - generic [ref=f7e289]: 110 HWY 35 N, Suite BRockport, Texas 78382
+          - generic [ref=f7e290]:
+            - text: Phone
+            - link "361-727-2131" [ref=f7e291] [cursor=pointer]:
+              - /url: tel:+13617272131
+          - generic [ref=f7e292]:
+            - text: Hours
+            - paragraph [ref=f7e293]: "Office: Monday–Friday, 8am–5pmClinical care: 24/7 on-call"
+          - link "Get directions" [ref=f7e294] [cursor=pointer]:
+            - /url: https://www.google.com/maps/dir/Hwy+35+N,+Rockport,+TX+78382
+    - region [ref=f7e295]:
+      - generic [ref=f7e296]:
+        - generic [ref=f7e297]:
+          - paragraph [ref=f7e298]: Get started
+          - heading "Request a free care evaluation." [level=2] [ref=f7e299]
+          - paragraph [ref=f7e300]: Tell us a little about your situation. A member of our team will follow up to answer questions and help you understand whether home health is the right next step.
+          - generic [ref=f7e301]:
+            - generic [ref=f7e302]:
+              - generic [ref=f7e303]: ✓
+              - text: No obligation consultation
+            - generic [ref=f7e304]:
+              - generic [ref=f7e305]: ✓
+              - text: We coordinate with your physician
+            - generic [ref=f7e306]:
+              - generic [ref=f7e307]: ✓
+              - text: Most major insurance plans accepted
+        - form "Care evaluation request" [ref=f7e308]:
+          - generic [ref=f7e309]:
+            - generic [ref=f7e310]:
+              - generic [ref=f7e311]: First name *
+              - textbox "First name required" [ref=f7e312]
+            - generic [ref=f7e313]:
+              - generic [ref=f7e314]: Last name *
+              - textbox "Last name required" [ref=f7e315]
+          - generic [ref=f7e316]:
+            - generic [ref=f7e317]: Phone number *
+            - textbox "Phone number required" [ref=f7e318]:
+              - /placeholder: (361) 555-0100
+          - generic [ref=f7e319]:
+            - generic [ref=f7e320]: Email
+            - textbox "Email" [ref=f7e321]:
+              - /placeholder: you@example.com
+          - generic [ref=f7e322]:
+            - generic [ref=f7e323]: I am interested in care for *
+            - combobox "I am interested in care for required" [ref=f7e324]:
+              - option "Select an option" [disabled] [selected]
+              - option "Myself"
+              - option "A family member"
+              - option "A relative or guardian of a patient"
+              - option "I am a current patient"
+              - option "Other"
+          - generic [ref=f7e325]:
+            - generic [ref=f7e326]: Tell us more about your needs
+            - textbox "Tell us more about your needs" [ref=f7e327]
+          - button "Request evaluation" [ref=f7e328]
+          - paragraph [ref=f7e329]:
+            - text: If this is a medical emergency, call
+            - link "911" [ref=f7e330] [cursor=pointer]:
+              - /url: tel:911
+            - text: first.
+  - contentinfo [ref=f7e331]:
+    - generic [ref=f7e332]:
+      - generic [ref=f7e333]:
+        - link "Cornerstone Home Health home":
+          - /url: /
+          - img "Cornerstone Home Health"
+        - paragraph [ref=f7e334]: Compassionate, skilled home health care for families across Rockport, Portland, Corpus Christi, and the Texas Coastal Bend.
+        - link "Joint Commission Gold Seal of Approval Joint Commission Accredited" [ref=f7e335] [cursor=pointer]:
+          - /url: https://www.jointcommission.org/accreditation-and-certification/health-care-settings/home-care/joint-commission-home-care-accreditation/
+          - img "Joint Commission Gold Seal of Approval"
+          - generic [ref=f7e336]: Joint Commission Accredited
+      - navigation "Footer navigation" [ref=f7e337]:
+        - heading "Quick links" [level=3] [ref=f7e338]
+        - list [ref=f7e339]:
+          - listitem [ref=f7e340]:
+            - link "Home" [ref=f7e341] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=f7e342]:
+            - link "About" [ref=f7e343] [cursor=pointer]:
+              - /url: /about/
+          - listitem [ref=f7e344]:
+            - link "Patient Services" [ref=f7e345] [cursor=pointer]:
+              - /url: /services/
+          - listitem [ref=f7e346]:
+            - link "Why Us" [ref=f7e347] [cursor=pointer]:
+              - /url: /why-us/
+          - listitem [ref=f7e348]:
+            - link "Articles" [ref=f7e349] [cursor=pointer]:
+              - /url: /articles/
+          - listitem [ref=f7e350]:
+            - link "Contact Us" [ref=f7e351] [cursor=pointer]:
+              - /url: /contact/
+          - listitem [ref=f7e352]:
+            - link "Schedule Consultation" [ref=f7e353] [cursor=pointer]:
+              - /url: /schedule/
+      - generic [ref=f7e354]:
+        - heading "Contact" [level=3] [ref=f7e355]
+        - generic [ref=f7e356]: 110 HWY 35 N, Suite BRockport, TX 78382
+        - link "361-727-2131" [ref=f7e357] [cursor=pointer]:
+          - /url: tel:+13617272131
+        - link "Follow us on Facebook" [ref=f7e358] [cursor=pointer]:
+          - /url: https://www.facebook.com/cornerstonehh2131/
+    - paragraph [ref=f7e361]: © 2026 Cornerstone Home Health. All rights reserved.
