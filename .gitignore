@@ -20,6 +20,13 @@
 # production
 /build
 
+# build output (next.config: distDir)
+/dist
+
+# AI / tooling / non-code (docs, logs, tests)
+/ia
+/.claude
+
 # misc
 .DS_Store
 *.pem

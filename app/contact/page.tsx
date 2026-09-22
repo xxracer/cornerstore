@@ -14,7 +14,6 @@ export default function ContactPage() {
   return (
     <>
       <SchemaJsonLd />
-      <a href="#main" className="skip-link">Skip to content</a>
       <Header />
       <main id="main">
         <section className="bg-cream-deep py-20 md:py-28">

@@ -39,7 +39,6 @@ export default async function ArticlePage({
   return (
     <>
       <SchemaJsonLd />
-      <a href="#main" className="skip-link">Skip to content</a>
       <Header />
       <main id="main">
         <section className="bg-cream-deep py-16 md:py-24">
